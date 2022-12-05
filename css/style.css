@@ -303,12 +303,14 @@ i:hover {
     display: flex;
     gap: 12em;
 }
+
 .contact,
 .ca-po {
     display: flex;
     flex-direction: column;
     gap: 0.8em;
 }
+
 .contact a,
 .ca-po a {
     color: white;
@@ -345,11 +347,10 @@ input {
     width: 100%;
     text-align: end;
 }
+
 .copy-2 {
     display: none;
 }
-
-
 
 @media only screen and (max-width: 575px) {
     body {
@@ -357,7 +358,7 @@ input {
         background-repeat: no-repeat;
         background-position: 4rem -5rem;
         background-size: 23rem;
-        /* margin: 17px; */
+        width: 100vw;
     }
 
     header {
@@ -559,9 +560,11 @@ input {
         align-items: center;
         padding: 40px 5px;
     }
+
     #mobile {
         display: flex;
     }
+
     #desktop {
         display: none;
     }
@@ -673,39 +676,6 @@ input {
         width: 60%;
     }
 
-    aside section {
-        width: 25%;
-    }
-
-    aside img {
-        width: 50%;
-    }
-
-    aside section p {
-        width: 100%;
-        font-size: 14px;
-    }
-
-    .last-cont {
-        position: relative;
-        bottom: 48px;
-        padding: 0 12px;
-    }
-
-    .art {
-        gap: 10px;
-    }
-
-    .claire h5 {
-        font-size: 14px;
-        width: 100%;
-    }
-
-    .claire p {
-        width: 100%;
-        font-size: 11px;
-    }
-
     footer {
         width: 118vw;
         gap: 1em;
@@ -725,4 +695,3 @@ input {
         padding: 6%;
     }
 }
-
