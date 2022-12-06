@@ -145,13 +145,14 @@ h2 {
     display: flex;
     gap: 20px;
     align-items: center;
-    Width: 100%;
+    Width: 91%;
 }
 
 .first {
     display: flex;
     flex-direction: column;
     gap: 9px;
+    align-self: center;
 }
 
 .first span {
