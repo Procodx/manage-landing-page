@@ -420,6 +420,7 @@ input {
     .span-class {
         gap: 10px;
         background-color: antiquewhite;
+        width: 100%;
     }
 
     .first span {
