@@ -642,7 +642,7 @@ input {
 
 /* end of mobile */
 
- /* Breakpoint */
+/* Breakpoint */
 @media screen and (min-width: 538px) and (max-width: 575px) {
     .simplify-section {
         width: 100%;
