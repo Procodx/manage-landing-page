@@ -145,7 +145,6 @@ h2 {
     display: flex;
     gap: 20px;
     align-items: center;
-    Width: 91%;
 }
 
 .first {
@@ -360,7 +359,7 @@ input {
         background-repeat: no-repeat;
         background-position: 4rem -5rem;
         background-size: 23rem;
-        width: 100%;
+        width: 96vw;
         margin: 0;
     }
 
@@ -415,13 +414,17 @@ input {
 
     h1 {
         width: 100%;
-        font-size: 32px;
+        font-size: 31px;
         text-align: center;
     }
 
     .span-class {
         gap: 10px;
         background-color: antiquewhite;
+        width: 97%;
+    }
+
+    .first {
         width: 100%;
     }
 
@@ -440,11 +443,11 @@ input {
 
     .difference {
         display: flex;
-    flex-direction: column;
-    width: 100%;
-    gap: 40px;
-    align-self: center;
-    margin: 0;
+        flex-direction: column;
+        width: 100%;
+        gap: 40px;
+        align-self: center;
+        margin: 0;
     }
 
     .difference p {
@@ -457,7 +460,7 @@ input {
     }
 
     .num {
-        width: 85%;
+        width: 90%;
     }
 
     .num p {
@@ -486,8 +489,8 @@ input {
         gap: 30px;
         align-items: center;
         width: 100%;
-        padding-left: 9px;
-        
+        padding-left: 7px;
+
     }
 
     .reason h2 {
@@ -513,7 +516,7 @@ input {
     }
 
     .card {
-        width: 59%;
+        width: 70%;
         padding: 22px;
     }
 
@@ -541,7 +544,7 @@ input {
 
     .simplify-section {
         margin: 0;
-        width: 81%;
+        width: 82%;
         align-self: center;
         flex-direction: column;
         align-items: center;
@@ -554,13 +557,13 @@ input {
     }
 
     .simplify-section h2 {
-        width: 81%;
+        width: 73%;
     }
 
     footer {
         flex-direction: column-reverse;
         gap: 2em;
-        width: 100%;
+        width: 101%;
         margin: 0;
         align-items: center;
         padding: 40px 5px;
@@ -630,16 +633,36 @@ input {
     .last-btn button {
         width: 4rem;
     }
+
+    .last-btn div {
+        display: flex;
+        gap: 12px;
+    }
 }
 
 /* end of mobile */
-@media screen and (max-width: 767px) and (min-width: 576px) {
+
+ /* Breakpoint */
+@media screen and (min-width: 538px) and (max-width: 575px) {
+    .simplify-section {
+        width: 100%;
+    }
+
+    footer {
+        width: 105%;
+    }
+}
+
+/* TABLET */
+@media screen and (max-width: 768px) and (min-width: 576px) {
     body {
-        width: 117vw;
+        width: 70%;
+        margin: 0;
+        background-position: 207% -1rem;
+        background-size: 34rem;
     }
 
     header {
-        background-color: aquamarine;
         width: 118vw;
         padding: 14px;
         align-items: baseline;
@@ -650,40 +673,45 @@ input {
     }
 
     button {
-        width: 25%;
+        width: 8rem;
         padding: 1em;
     }
 
-    .first-cont {
-        padding-left: 2em;
-        gap: 1em;
+    main {
+        margin-top: 1em;
     }
 
-    .first-cont h1 {
-        font-size: 28px;
-        width: 70%;
-    }
-
-    .first-cont p {
-        font-size: 14px;
+    h1 {
         width: 100%;
+        font-size: 38px;
     }
 
-    .mid-cont {
-        bottom: 73px;
+    .Bring-2geda p {
+        width: 100%;
+        font-size: 15px;
     }
 
-    .text button {
-        width: 50%;
+    .difference {
+        width: 54em;
+        gap: 0;
     }
 
-    .reason p {
+    .features-section {
+        align-self: baseline;
+        padding-left: 67px;
+    }
+
+    .simplify-section {
+        width: 114vw;
+    }
+
+    .reasons p {
         width: 60%;
     }
 
     footer {
-        width: 118vw;
-        gap: 1em;
+        width: 117vw;
+        gap: 3em;
     }
 
     .jj {
@@ -696,7 +724,7 @@ input {
     }
 
     .last-btn button {
-        width: 70%;
-        padding: 6%;
+        width: 4rem;
+
     }
 }
