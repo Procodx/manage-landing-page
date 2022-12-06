@@ -358,15 +358,14 @@ input {
         background-repeat: no-repeat;
         background-position: 4rem -5rem;
         background-size: 23rem;
-        width: 100vw;
+        width: 100%;
+        margin: 0;
     }
 
     header {
-        justify-content: flex-start;
-        gap: 10em;
-        align-items: center;
-        width: 100%;
-        padding: 16px;
+        width: 89%;
+        padding: 18px;
+        margin: 0;
     }
 
     header img {
@@ -432,16 +431,17 @@ input {
     .features-section {
         background-position: 7rem -13rem;
         background-size: 24rem;
-        /* padding: 23px 15px; */
         gap: 2em;
         width: 100%;
     }
 
     .difference {
         display: flex;
-        flex-direction: column;
-        width: 100%;
-        gap: 40px;
+    flex-direction: column;
+    width: 100%;
+    gap: 40px;
+    align-self: center;
+    margin: 0;
     }
 
     .difference p {
@@ -468,6 +468,7 @@ input {
         display: flex;
         flex-direction: column;
         gap: 10px;
+        align-self: center;
     }
 
     h2 {
@@ -482,7 +483,8 @@ input {
         gap: 30px;
         align-items: center;
         width: 100%;
-        padding-left: 15px;
+        padding-left: 9px;
+        
     }
 
     .reason h2 {
@@ -508,7 +510,7 @@ input {
     }
 
     .card {
-        width: 74%;
+        width: 59%;
         padding: 22px;
     }
 
@@ -536,7 +538,7 @@ input {
 
     .simplify-section {
         margin: 0;
-        width: 100%;
+        width: 81%;
         align-self: center;
         flex-direction: column;
         align-items: center;
@@ -585,7 +587,7 @@ input {
 
     .ft-one nav {
         display: flex;
-        gap: 23px;
+        gap: 19px;
     }
 
     .group-n {
