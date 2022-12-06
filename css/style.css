@@ -145,6 +145,7 @@ h2 {
     display: flex;
     gap: 20px;
     align-items: center;
+    Width: 100%;
 }
 
 .first {
